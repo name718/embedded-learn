@@ -1,0 +1,10 @@
+.\objects\inf_lcd.o: Hardware\lcd\Inf_LCD.c
+.\objects\inf_lcd.o: Hardware\lcd\Inf_LCD.h
+.\objects\inf_lcd.o: Hardware\lcd\Driver_LCD_FSMC.h
+.\objects\inf_lcd.o: .\Start\stm32f10x.h
+.\objects\inf_lcd.o: .\Start\core_cm3.h
+.\objects\inf_lcd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\inf_lcd.o: .\Start\system_stm32f10x.h
+.\objects\inf_lcd.o: .\User\Delay.h
+.\objects\inf_lcd.o: Hardware\lcd\Font.h
+.\objects\inf_lcd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

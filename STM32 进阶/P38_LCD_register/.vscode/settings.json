@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "inf_lcd.h": "c",
+        "driver_lcd_fsmc.h": "c",
+        "font.h": "c",
+        "stm32f10x.h": "c"
+    }
+}

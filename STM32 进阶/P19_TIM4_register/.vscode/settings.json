@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "driver_tim5.h": "c",
+        "driver_usart1.h": "c"
+    }
+}

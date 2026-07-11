@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"p24_tim1_hal\startup_stm32f103xe.o"
+"p24_tim1_hal\main.o"
+"p24_tim1_hal\gpio.o"
+"p24_tim1_hal\tim.o"
+"p24_tim1_hal\stm32f1xx_it.o"
+"p24_tim1_hal\stm32f1xx_hal_msp.o"
+"p24_tim1_hal\stm32f1xx_hal_gpio_ex.o"
+"p24_tim1_hal\stm32f1xx_hal_tim.o"
+"p24_tim1_hal\stm32f1xx_hal_tim_ex.o"
+"p24_tim1_hal\stm32f1xx_hal.o"
+"p24_tim1_hal\stm32f1xx_hal_rcc.o"
+"p24_tim1_hal\stm32f1xx_hal_rcc_ex.o"
+"p24_tim1_hal\stm32f1xx_hal_gpio.o"
+"p24_tim1_hal\stm32f1xx_hal_dma.o"
+"p24_tim1_hal\stm32f1xx_hal_cortex.o"
+"p24_tim1_hal\stm32f1xx_hal_pwr.o"
+"p24_tim1_hal\stm32f1xx_hal_flash.o"
+"p24_tim1_hal\stm32f1xx_hal_flash_ex.o"
+"p24_tim1_hal\stm32f1xx_hal_exti.o"
+"p24_tim1_hal\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "P24_TIM1_hal\P24_TIM1_hal.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "P24_TIM1_hal.map" -o P24_TIM1_hal\P24_TIM1_hal.axf

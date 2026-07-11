@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.c": "c",
+        "stm32f10x.h": "c",
+        "EEPROM.C": "cpp",
+        "dma1.h": "c",
+        "tim5.h": "c"
+    }
+}

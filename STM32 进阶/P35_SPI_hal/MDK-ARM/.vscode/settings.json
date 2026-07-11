@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "inf_w25q32.h": "c",
+        "driver_spi.h": "c",
+        "usart.h": "c",
+        "stdio.h": "c"
+    }
+}

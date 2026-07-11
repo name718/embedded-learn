@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"p20_tim4_hal\startup_stm32f103xe.o"
+"p20_tim4_hal\main.o"
+"p20_tim4_hal\gpio.o"
+"p20_tim4_hal\tim.o"
+"p20_tim4_hal\usart.o"
+"p20_tim4_hal\stm32f1xx_it.o"
+"p20_tim4_hal\stm32f1xx_hal_msp.o"
+"p20_tim4_hal\stm32f1xx_hal_gpio_ex.o"
+"p20_tim4_hal\stm32f1xx_hal_tim.o"
+"p20_tim4_hal\stm32f1xx_hal_tim_ex.o"
+"p20_tim4_hal\stm32f1xx_hal.o"
+"p20_tim4_hal\stm32f1xx_hal_rcc.o"
+"p20_tim4_hal\stm32f1xx_hal_rcc_ex.o"
+"p20_tim4_hal\stm32f1xx_hal_gpio.o"
+"p20_tim4_hal\stm32f1xx_hal_dma.o"
+"p20_tim4_hal\stm32f1xx_hal_cortex.o"
+"p20_tim4_hal\stm32f1xx_hal_pwr.o"
+"p20_tim4_hal\stm32f1xx_hal_flash.o"
+"p20_tim4_hal\stm32f1xx_hal_flash_ex.o"
+"p20_tim4_hal\stm32f1xx_hal_exti.o"
+"p20_tim4_hal\stm32f1xx_hal_uart.o"
+"p20_tim4_hal\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "P20_TIM4_hal\P20_TIM4_hal.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "P20_TIM4_hal.map" -o P20_TIM4_hal\P20_TIM4_hal.axf

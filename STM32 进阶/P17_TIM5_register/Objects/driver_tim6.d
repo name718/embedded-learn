@@ -1,0 +1,9 @@
+.\objects\driver_tim6.o: Hardware\tim\Driver_tim6.c
+.\objects\driver_tim6.o: Hardware\tim\Driver_tim6.h
+.\objects\driver_tim6.o: .\Hardware\usart\Driver_USART1.h
+.\objects\driver_tim6.o: .\Start\stm32f10x.h
+.\objects\driver_tim6.o: .\Start\core_cm3.h
+.\objects\driver_tim6.o: D:\Program Files\keil_V5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\driver_tim6.o: .\Start\system_stm32f10x.h
+.\objects\driver_tim6.o: D:\Program Files\keil_V5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\driver_tim6.o: .\Hardware\led\Driver_LED.h

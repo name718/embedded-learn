@@ -1,0 +1,9 @@
+.\objects\driver_systick.o: Hardware\tim\Driver_systick.c
+.\objects\driver_systick.o: Hardware\tim\Driver_systick.h
+.\objects\driver_systick.o: .\Hardware\led\Driver_LED.h
+.\objects\driver_systick.o: .\Start\stm32f10x.h
+.\objects\driver_systick.o: .\Start\core_cm3.h
+.\objects\driver_systick.o: D:\Program Files\keil_V5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\driver_systick.o: .\Start\system_stm32f10x.h
+.\objects\driver_systick.o: .\Hardware\usart\Driver_USART1.h
+.\objects\driver_systick.o: D:\Program Files\keil_V5\ARM\ARMCC\Bin\..\include\stdio.h

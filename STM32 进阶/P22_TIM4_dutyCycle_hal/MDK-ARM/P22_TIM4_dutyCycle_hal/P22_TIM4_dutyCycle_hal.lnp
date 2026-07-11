@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"p22_tim4_dutycycle_hal\startup_stm32f103xe.o"
+"p22_tim4_dutycycle_hal\main.o"
+"p22_tim4_dutycycle_hal\gpio.o"
+"p22_tim4_dutycycle_hal\tim.o"
+"p22_tim4_dutycycle_hal\usart.o"
+"p22_tim4_dutycycle_hal\stm32f1xx_it.o"
+"p22_tim4_dutycycle_hal\stm32f1xx_hal_msp.o"
+"p22_tim4_dutycycle_hal\stm32f1xx_hal_gpio_ex.o"
+"p22_tim4_dutycycle_hal\stm32f1xx_hal_tim.o"
+"p22_tim4_dutycycle_hal\stm32f1xx_hal_tim_ex.o"
+"p22_tim4_dutycycle_hal\stm32f1xx_hal.o"
+"p22_tim4_dutycycle_hal\stm32f1xx_hal_rcc.o"
+"p22_tim4_dutycycle_hal\stm32f1xx_hal_rcc_ex.o"
+"p22_tim4_dutycycle_hal\stm32f1xx_hal_gpio.o"
+"p22_tim4_dutycycle_hal\stm32f1xx_hal_dma.o"
+"p22_tim4_dutycycle_hal\stm32f1xx_hal_cortex.o"
+"p22_tim4_dutycycle_hal\stm32f1xx_hal_pwr.o"
+"p22_tim4_dutycycle_hal\stm32f1xx_hal_flash.o"
+"p22_tim4_dutycycle_hal\stm32f1xx_hal_flash_ex.o"
+"p22_tim4_dutycycle_hal\stm32f1xx_hal_exti.o"
+"p22_tim4_dutycycle_hal\stm32f1xx_hal_uart.o"
+"p22_tim4_dutycycle_hal\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "P22_TIM4_dutyCycle_hal\P22_TIM4_dutyCycle_hal.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "P22_TIM4_dutyCycle_hal.map" -o P22_TIM4_dutyCycle_hal\P22_TIM4_dutyCycle_hal.axf

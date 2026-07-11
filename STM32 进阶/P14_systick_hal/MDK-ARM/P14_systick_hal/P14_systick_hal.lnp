@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"p14_systick_hal\startup_stm32f103xe.o"
+"p14_systick_hal\main.o"
+"p14_systick_hal\gpio.o"
+"p14_systick_hal\stm32f1xx_it.o"
+"p14_systick_hal\stm32f1xx_hal_msp.o"
+"p14_systick_hal\stm32f1xx_hal_gpio_ex.o"
+"p14_systick_hal\stm32f1xx_hal_tim.o"
+"p14_systick_hal\stm32f1xx_hal_tim_ex.o"
+"p14_systick_hal\stm32f1xx_hal.o"
+"p14_systick_hal\stm32f1xx_hal_rcc.o"
+"p14_systick_hal\stm32f1xx_hal_rcc_ex.o"
+"p14_systick_hal\stm32f1xx_hal_gpio.o"
+"p14_systick_hal\stm32f1xx_hal_dma.o"
+"p14_systick_hal\stm32f1xx_hal_cortex.o"
+"p14_systick_hal\stm32f1xx_hal_pwr.o"
+"p14_systick_hal\stm32f1xx_hal_flash.o"
+"p14_systick_hal\stm32f1xx_hal_flash_ex.o"
+"p14_systick_hal\stm32f1xx_hal_exti.o"
+"p14_systick_hal\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "P14_systick_hal\P14_systick_hal.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "P14_systick_hal.map" -o P14_systick_hal\P14_systick_hal.axf
